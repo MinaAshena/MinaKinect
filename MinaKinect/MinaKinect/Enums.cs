@@ -6,8 +6,14 @@ using System.Threading.Tasks;
 
 namespace MinaKinect
 {
-    public class Class1
+    public enum ColorFormat
     {
-
+        Rgb1920x1080FPS30
     }
+
+    public enum DepthFormat
+    {
+        R512x424
+    }
+
 }
